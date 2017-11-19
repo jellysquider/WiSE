@@ -1,0 +1,23 @@
+.jumbotron {
+  background: url('/../earth.jpeg') no-repeat center top;
+  color: black;
+  padding-bottom: 80px; }
+  .jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7; }
+    .jumbotron .btn-primary:hover {
+      background: #7646c1; }
+  .jumbotron p {
+    color: #000;
+    max-width: 75%;
+    margin: 1em auto 2em; }
+  .navbar + .jumbotron {
+    margin-top: -20px; }
+  .jumbotron .img-logo {
+    display: block;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    margin: auto; }
+    .jumbotron .img-logo img {
+      max-width: 100%; }
